@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gentoo"
+          fetch="https://anongit.gentoo.com/git/repo"/>
+
+  <remote  name="github-skymage23"
+           fetch="https://github.com/skymage23"/>
+
+  <remote  name="vanilla-kernel-stable" 
+           fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable" />
+
+  <!--<remote name="linaro-arm64-kernel"/>-->
+
+
+  <!--This isn't like AOSP, where we can assume branch names and tags are uniform across remotes.-->
+  <default sync-j="4" />
+
+  <!--<superproject name="platform/superproject" remote="aosp" revision="android15-release"/>-->
+  <!--<contactinfo bugurl="go/repo-bug" />-->
+
+  <!-- BEGIN open-source projects -->
+  <project
+    path="kernels/vanilla-kernel-stable"
+    name="6.16.0"
+    remote="vanilla-kernel-stable"
+    revision=""
+    groups="kernel"/>
+
+  <!--<project
+    path="kernels/linaro-arm64-kernel"
+    name="linux"
+    remote="linaro-arm64-kernel"
+    groups="kernel,arm64only"/>-->
+
+   <project
+     path="libs/portage/portage"
+     name="proj/portage"
+     remote="gentoo"
+     groups="build-tools"/>
+
+   <project
+      path="libs/portage/repos/gentoo"
+      name="repo/gentoo"
+      remote="gentoo"
+      groups="build-tools"/>
+
+   <project
+      path="scripts"
+      name="kernel-usb-gadget-scripts"
+      remote="github-skymage23"
+      groups="build-tools"/>
+  
+</manifest>
