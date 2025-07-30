@@ -14,7 +14,7 @@
 
 
   <!--This isn't like AOSP, where we can assume branch names and tags are uniform across remotes.-->
-  <default sync-j="4" />
+  <default sync-j="4" revision="main">
 
   <!--<superproject name="platform/superproject" remote="aosp" revision="android15-release"/>-->
   <!--<contactinfo bugurl="go/repo-bug" />-->
