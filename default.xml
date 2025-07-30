@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="gentoo"
-          fetch="https://anongit.gentoo.com/git/repo"/>
+          fetch="https://anongit.gentoo.com/git/"/>
 
   <remote  name="github-skymage23"
            fetch="https://github.com/skymage23"/>
