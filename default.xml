@@ -24,7 +24,7 @@
     path="kernels/vanilla-kernel-stable"
     name="6.16.0"
     remote="vanilla-kernel-stable"
-    revision=""
+    revision="8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c"
     groups="kernel"/>
 
   <!--<project
