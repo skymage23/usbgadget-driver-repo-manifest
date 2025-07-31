@@ -20,9 +20,10 @@
   <!--<contactinfo bugurl="go/repo-bug" />-->
 
   <!-- BEGIN open-source projects -->
+  <!--v6.16-->
   <project
-    path="kernels/vanilla-kernel-stable"
-    name="6.16.0"
+    path="kernels/vanilla-kernel-stable/linux-v6.16"
+    name="linux"
     remote="vanilla-kernel-stable"
     revision="8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c"
     groups="kernel"/>
