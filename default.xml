@@ -28,6 +28,18 @@
     revision="8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c"
     groups="kernel"/>
 
+  <project
+     path="devices/amd64-uefi-generic"
+     name="usbgadget-devices-amd64-uefi-generic"
+     remote="github-skymage23"
+     groups="devices"/>
+
+  <project
+     path="devices/aarch64-uefi-generic"
+     name="usbgadget-devices-aarch64-uefi-generic"
+     remote="github-skymage23"
+     groups="devices"/>
+
   <!--<project
     path="kernels/linaro-arm64-kernel"
     name="linux"
