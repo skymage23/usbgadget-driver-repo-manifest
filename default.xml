@@ -60,10 +60,10 @@
       remote="gentoo"
       groups="build-tools"/>
 
-   <!--<project
-      path="scripts"
-      name="kernel-usb-gadget-scripts"
+   <project
+      path="bin"
+      name="usbgadget-bin"
       remote="github-skymage23"
-      groups="build-tools"/>-->
+      groups="build-tools"/>
   
 </manifest>
