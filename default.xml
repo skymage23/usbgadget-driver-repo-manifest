@@ -37,12 +37,14 @@
    <project
      path="libs/portage/portage"
      name="proj/portage"
+     revision="980d76b4160ba58da2efae1ceefbde9c04aff71d"
      remote="gentoo"
      groups="build-tools"/>
 
    <project
       path="libs/portage/repos/gentoo"
       name="repo/gentoo"
+      revision="master"
       remote="gentoo"
       groups="build-tools"/>
 
